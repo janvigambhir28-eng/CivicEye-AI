@@ -35,7 +35,7 @@ if uploaded_file is not None:
    # Send the prompt and the image to the model using the standard flagship name
         # Send the prompt and the image to the model
         response = client.models.generate_content(
-            model='gemini-1.5-flash',
+            model='gemini/gemini-1.5-flash',
             contents=[prompt, image]
         )
         
